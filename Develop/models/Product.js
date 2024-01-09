@@ -1,13 +1,13 @@
 const { Model, DataTypes } = require('sequelize');
 const sequelize = require('../config/connection');
 const Category = require('./Category');
-const Tag = require('./Tag');
-const ProductTag = require('./ProductTag');
 
 class Product extends Model {}
 
+// Define the Product model
 Product.init(
   {
+    // Define the product attributes
     id: {
       type: DataTypes.INTEGER,
       allowNull: false,
@@ -50,13 +50,9 @@ Product.init(
   }
 );
 
+// Define associations
 Product.belongsTo(Category, {
   foreignKey: 'category_id',
-});
-
-Product.belongsToMany(Tag, {
-  through: ProductTag,
-  foreignKey: 'product_id',
 });
 
 module.exports = Product;
