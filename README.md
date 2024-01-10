@@ -28,6 +28,6 @@ GitHub: https://github.com/mustapha103
 
 ## Video Link
 
-<li>Initial Setup: </li>
+<li>Initial Setup: https://www.loom.com/share/47a7212d5b514e608a0465a6e558957f?sid=3034e22b-e532-45de-8760-556294ffa075</li>
 <li>GET routes: https://www.loom.com/share/c803df0d339d4f0aaf34675e1d2ca4f9?sid=26beefd3-335f-448b-b02b-4a3d4942bdce</li>
-<li>POST, PUT, and DELETE routes: </li> 
+<li>POST, PUT, and DELETE routes: https://www.loom.com/share/fcaff81c6a144da9a6e6131f69cddf88?sid=25f45866-84a0-4565-84c0-37609e2edf0a</li> 
