@@ -28,5 +28,6 @@ GitHub: https://github.com/mustapha103
 
 ## Video Link
 
+<li>Initial Setup: </li>
 <li>GET routes: https://www.loom.com/share/c803df0d339d4f0aaf34675e1d2ca4f9?sid=26beefd3-335f-448b-b02b-4a3d4942bdce</li>
-<li>POST, PUT, and DELETE routes:</li> 
+<li>POST, PUT, and DELETE routes: </li> 
