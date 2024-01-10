@@ -36,7 +36,7 @@ Product.init(
     category_id: {
       type: DataTypes.INTEGER,
       references: {
-        model: Category,
+        model: 'category',
         key: 'id',
       },
     },
@@ -49,10 +49,5 @@ Product.init(
     modelName: 'product',
   }
 );
-
-// Define associations
-Product.belongsTo(Category, {
-  foreignKey: 'category_id',
-});
 
 module.exports = Product;
